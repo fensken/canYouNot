@@ -1,0 +1,140 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+ padding: 2rem 20rem;
+}
+
+
+.main-container {
+  text-align: left;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+.image-class{
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 30%;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-description {
+  font-size: 1rem;
+  /* margin-top: 8rem; */
+  margin-top: 1rem;
+  font-weight: 400;
+  color: rgb(95, 95, 95);
+}
+
+.labels {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.input-fields {
+  font-size: 1rem;
+  border: 2px solid #fdb514;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(245, 242, 242);
+  color: rgb(22, 22, 22);
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  background-color: #fdb514;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 3.5rem;
+  color: black;
+  border: none;
+  margin-bottom: 4rem;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #fac34b;
+}
+
+.block-button{
+    background-color: grey;
+}
+.block-button:hover{
+    background-color: grey;
+    cursor: initial;
+}
+
+.success-alert {
+  display: none;
+  position: absolute;
+  min-width: 15%;
+  top: 0.5rem;
+  right: 0;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 141, 141);
+  padding: 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  font-weight: 500;
+  text-align: center;
+  border-left: 10px solid rgb(255, 29, 29);
+}
+.success-alert h4 {
+  display: inline-flex;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+
+@media only screen and (max-width: 400px) {
+    body {
+        padding: 1rem 1rem;
+        padding: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        padding: 2rem 15rem;
+    }
+}
+@media only screen and (max-width: 950px) {
+    body {
+        padding: 1rem 15rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 1rem 7rem;
+    }
+}
